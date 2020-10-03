@@ -1,0 +1,27 @@
+{
+  "name": "YMeet",
+  "version": "1.0.0",
+  "description": "A simple video conferencing app.",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "video",
+    "chat",
+    "conferencing",
+    "WebRTC",
+    "ExpressJS"
+  ],
+  "author": "Divyam Ahuja",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

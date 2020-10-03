@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script>
+            const ROOM_ID = "<%= roomId %>"
+            document.title = `Room: ${ROOM_ID}`
+        </script>
+        <script src="/socket.io/socket.io.js" defer></script>
+        <script src="https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js" defer></script>
+        <script src="script.js" defer></script>
+        <title>Room</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles/room-style.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="main-video-container">
+                <div class="main-video">
+                    <div id='video-grid'></div>
+                </div>
+                <div class="main-video-controls">
+                    <div class = "main-controls-block">
+                        <div class="control-button microphone_button">
+                            <i class="fas fa-microphone"></i>
+                        </div>
+                        <div class="control-button leave_button">
+                            <i class="fas fa-phone-slash"></i>
+                        </div>
+                        <div class="control-button video_button">
+                            <i class="fas fa-video"></i>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <div class="chat-container">
+
+            </div>
+        </div>
+        
+    </body>
+</html>
