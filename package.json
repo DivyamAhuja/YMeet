@@ -1,5 +1,5 @@
 {
-  "name": "RTCMeet",
+  "name": "YMeet",
   "version": "1.0.0",
   "description": "A simple React video chat software",
   "main": "server.js",
