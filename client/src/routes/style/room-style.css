@@ -1,0 +1,79 @@
+html {
+    width: 100vw;
+    height: 100vh;
+}
+body {
+    margin: 0;
+    height: 100%;
+}
+.main {
+    height: 100vh;
+    display: flex;
+}
+
+.main-video-container {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    
+}
+
+.main-video {
+    flex-grow: 1;
+    display: flex;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    
+}
+
+.main-video-controls {
+    background-color: rgb(0, 0, 0);
+    color: #292929;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-controls-block {
+    display: flex;
+    justify-content: center;
+}
+
+.control-button {
+    display: flex;
+    background-clip: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    margin: 12px 8px;
+    border-style: solid ;
+    border-width: thin;
+    border-color: #ca7bff;
+    border-radius: 50%;
+    min-width: 40px;
+    min-height: 40px;
+    cursor: pointer;
+    color: #ca7bff;
+}
+.control-button:hover {
+    background-color: #ca7bff;
+    color: #fff;
+    
+}
+.chat-container {
+    background-color: #292929;
+}
+#video-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+video {
+    width: 25vw;
+    height: auto;
+}

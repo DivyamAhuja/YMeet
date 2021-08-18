@@ -1,0 +1,17 @@
+{
+  "name": "RTCMeet",
+  "version": "1.0.0",
+  "description": "A simple React video chat software",
+  "main": "server.js",
+  "author": "Divyam",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "scripts": {
+    "start": "PROD=true node server.js",
+    "postinstall": "cd ./client && yarn"
+  }
+}
